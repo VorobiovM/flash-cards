@@ -12,17 +12,22 @@ Application for micro learning with help of flash cards.
 - ❌ Persistant storage
 - ❌ Encryption
 - ❌ Automatically generate cards from a PDF (LLM?)
+
 ❌ Learn mode
 - ❌ Randomize cards (Prioritize less known cards)
 - ❌ Keep track of right/wrong answerts
 - ❌ Hide answer, then mark question right/wrong
+
 ❌ Flash card design
 - ❌ Markdown
 - ❌ Pictures & tables
 - ❌ Partially hide answers from pictures/tables
+
 ### Infrastructure
 ❌ Global app state
+
 ❌ Themes
 - ❌ Light/Dark mode
 - ❌ Custom themes
+
 ❌ Internatiolization
