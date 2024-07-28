@@ -2,6 +2,7 @@
 # will have compiled files and executables
 debug/
 target/
+build/
 
 # Remove Cargo.lock from gitignore if creating an executable, leave it for libraries
 # More information here https://doc.rust-lang.org/cargo/guide/cargo-toml-vs-cargo-lock.html
@@ -12,3 +13,50 @@ Cargo.lock
 
 # MSVC Windows builds of rustc generate these, which store debugging information
 *.pdb
+
+# JavaScript + TypeScript + Svelte
+# Dependency directories
+.node_modules/
+node_modules/
+package-lock.json
+
+# VSC related
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/settings.json
+!.vscode/tasks.json
+
+# Svelte relatetd
+.svelte-kit/
+package/
+
+# Vite related
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# IDE related
+.idea
+
+# Test coverage
+coverage
+*.lcov
+
+# Optional eslint cache
+.eslintcache
+
+# dotenv environment variables file
+.env
+.env.*
+!.env.example
+.env.test
+
+# build output
+.vercel
+
+# OS-specific
+.DS_Store
+
+tmp
+
+benchmarking/compare/.results

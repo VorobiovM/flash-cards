@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "name": "Start",
+            "request": "launch",
+            "runtimeArgs": [
+                "run",
+                "tauri",
+                "dev"
+            ],
+            "runtimeExecutable": "npm",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        }
+    ]
+}
